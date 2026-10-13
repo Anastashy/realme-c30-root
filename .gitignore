@@ -1,0 +1,24 @@
+# артефакты — никогда не коммить
+*.img
+sml
+trustos
+trustos_after*.bin
+miscdata*
+vbmeta*
+merged*.sha256
+tos-noavb*
+partition.xml
+spd_*.log
+*.pdb
+
+# бинарники и прошивки (получаются локально, см. README)
+spd_dump/
+fdl/
+SPD_Driver*/
+
+__pycache__/
+*.pyc
+
+# личное
+cj.txt
+*.cookies

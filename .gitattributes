@@ -1,0 +1,5 @@
+# bash-скрипты и python — только LF (CRLF ломает bash на checkout)
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.ps1 text eol=crlf
